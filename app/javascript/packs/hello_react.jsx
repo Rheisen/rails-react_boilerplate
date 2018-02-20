@@ -7,7 +7,9 @@ import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
 const Hello = props => (
-  <div>Hello {props.name}!</div>
+  <div className="ready-container">
+      <h1 className="ready-text">Boilerplate Ready</h1>
+  </div>
 );
 
 Hello.defaultProps = {

@@ -1,0 +1,24 @@
+@import "base/reset";
+
+// THESE ARE BASE BOILERPLATE STYLES
+// They should be removed when ready
+// main.scss should be for imports
+body {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.ready-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .ready-text {
+    margin-top: -2.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+}
+// END BASE BOILERPLATE STYLES
